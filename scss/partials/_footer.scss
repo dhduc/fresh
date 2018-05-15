@@ -3,10 +3,11 @@ Fresh Footer
 ========================================================================== */
 
 footer.footer-dark {
+    padding: 0.1rem 1.5rem 1rem;
     background: $blue-grey;
     color: $white;
     .columns {
-        margin-top: 35px;
+        margin-top: 20px;
     }
     .footer-logo {
         img {

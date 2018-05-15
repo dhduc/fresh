@@ -41,7 +41,7 @@ Navbar
         color: $muted-grey;
         &.is-secondary {
             &:hover {
-                color: $secondary !important;
+                color: $primary !important;
             }
         }
         &.has-dropdown {
@@ -60,16 +60,16 @@ Navbar
                 top: 3.4rem;
                 min-width: 220px;
                 margin-top: 4px;
-                border-top-color: $secondary;
+                border-top-color: $primary;
                 .navbar-item {
                     padding: 10px 20px;
                 }
             }
             &:hover {
                 .navbar-link {
-                    color: $secondary;
+                    color: $primary;
                     &:after {
-                        border-color: $secondary;
+                        border-color: $primary;
                     }
                 }
             }
